@@ -7,6 +7,9 @@ const app = express();
 // definisco il numero di porta
 const port = 3000;
 
+// importo il router dei post
+const routerPosts = require('./routers/routerPosts')
+
 // definisco use per richiamare gli asset statici nella cartella public
 app.use(express.static('public'));
  
